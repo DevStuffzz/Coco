@@ -1,0 +1,42 @@
+html {
+    background: url("https://i.redd.it/hux3ppm9y5941.jpg");
+}
+
+
+.video-container {
+    color: white;
+    text-align: center;
+    display: flex;
+    
+    flex-direction: column;
+    
+    margin: 0 auto;
+    width: 320px;
+    padding: 0;
+    
+    align-self: center;
+    align-content: center;
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    display: flex;
+    border: 1px solid black;
+    background: rgba(100, 100, 255, 0.3);
+    font-size: auto;
+    margin: 20px auto;
+    padding: 0;
+    width: 250px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.btn:hover {
+    background: rgba(100, 100, 255, 0.6);   
+}
+
+.btn:focus {
+    background: rgba(100, 100, 255, 0.8);
+}
